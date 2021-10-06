@@ -1,0 +1,18 @@
+@media (max-width: 1200px) {
+  .calendarContainer {
+    width: 250px !important;
+    padding: 10px !important;
+  }
+  .jalaali.calendarContainer .selectToday {
+    padding: 2px 0 !important;
+  }
+  .calendarContainer .heading {
+    margin-bottom: 5px !important;
+  }
+  .calendarContainer .dayWrapper button {
+    width: 24px !important;
+    height: 24px !important;
+    font-size: 1em !important;
+    line-height: 1 !important;
+  }
+}
