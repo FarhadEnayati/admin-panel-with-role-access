@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping wildcard="true">
+        <class-a>com.project.model.WidgetMenu</class-a>
+        <class-b>com.project.view.WidgetMenuView2</class-b>
+        <field>
+            <a>widgetPath</a>
+            <b>path</b>
+        </field>
+        <field>
+            <a>menuNameFa</a>
+            <b>name</b>
+        </field>
+        <field>
+            <a>parentId</a>
+            <b>parent</b>
+        </field>
+        <field>
+            <a>menuOrder</a>
+            <b>order</b>
+        </field>
+        <field>
+            <a>widgetIcon</a>
+            <b>icon</b>
+        </field>
+        <field>
+            <a>menuType</a>
+            <b>type</b>
+        </field>
+        <field>
+            <a>parentMenuNameFa</a>
+            <b>parentName</b>
+        </field>
+    </mapping>
+
+</mappings>
