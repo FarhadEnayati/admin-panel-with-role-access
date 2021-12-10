@@ -28,7 +28,7 @@
   "homepage": "app",
   "scripts": {
     "start": "react-scripts start",
-    "build": "mkdirp ../src/main/webapp && RD /S /Q ..\\src\\main\\webapp && react-scripts build && move build ../src/main/webapp",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
