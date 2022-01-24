@@ -1,15 +1,15 @@
 # admin-panel-with-role-access
 This project is developed with Java(spring-boot framework), Hibernate and React-JS 
 
-### installing Java
+### Installing Java
 - mvn spring-boot:run
 
-### installing only react (use in develop)
+### Installing only react (use in develop)
 1. goto app folder
 2. npm i
 3. npm start
 
-### build UI after changes
+### Build UI and Package Java
 - mvn clean package
 
 ### How to run
